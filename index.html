@@ -293,8 +293,10 @@ wsvg.append('path')
 
 /* ── INDIA MAP (tab 4) ── */
 const isvg=d3.select('#imap');
-const iproj=d3.geoMercator().center([82,23]).scale(1350).translate([530,420]);
+const iproj=d3.geoMercator();
 const ipath=d3.geoPath(iproj);
+// Auto-fit projection to the actual geometry bounds with 20px padding
+iproj.fitExtent([[20,20],[1092,800]], {type:'FeatureCollection',features:INDIA_GEO.features});
 const istates=isvg.selectAll('.state')
   .data(INDIA_GEO.features).join('path').attr('class','state')
   .attr('d',ipath)
