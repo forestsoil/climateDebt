@@ -32,7 +32,7 @@ h1{font-size:25px;font-weight:700;line-height:1.2;letter-spacing:-.3px;margin-bo
 .panel{display:none;margin-top:12px}
 .panel.show{display:block}
 svg.worldmap{width:100%;display:block}
-svg.indiamap{width:100%;display:block;max-height:520px}
+svg.indiamap{width:100%;display:block}
 .sphere{fill:#d9eaf5}.graticule{fill:none;stroke:#c2d9ea;stroke-width:.4px}
 .country,.state{stroke:#fff;stroke-width:.35px;cursor:crosshair}
 .country:hover,.state:hover{stroke:#1a1a1a;stroke-width:1px}
@@ -173,7 +173,7 @@ footer{margin-top:14px;border-top:1px solid #e0e0e0;padding-top:9px;
 
 <!-- India panel -->
 <div class="panel" id="panel-india" style="margin-top:12px">
-  <svg id="imap" class="indiamap" viewBox="0 0 1112 540" xmlns="http://www.w3.org/2000/svg"></svg>
+  <svg id="imap" class="indiamap" viewBox="0 0 1112 820" xmlns="http://www.w3.org/2000/svg"></svg>
   <div class="leg">
     <div class="leg-row">
       <svg width="380" height="11" style="border-radius:2px;flex-shrink:0">
@@ -293,7 +293,7 @@ wsvg.append('path')
 
 /* ── INDIA MAP (tab 4) ── */
 const isvg=d3.select('#imap');
-const iproj=d3.geoMercator().center([82,22]).scale(1150).translate([556,260]);
+const iproj=d3.geoMercator().center([82,23]).scale(1350).translate([530,420]);
 const ipath=d3.geoPath(iproj);
 const istates=isvg.selectAll('.state')
   .data(INDIA_GEO.features).join('path').attr('class','state')
