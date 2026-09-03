@@ -1,0 +1,37 @@
+rank,state,forest_area_km2,carbon_stock_MtCO2,carbon_stock_GtCO2
+1,Arunachal Pradesh,66964,12531.0,12.531
+2,Madhya Pradesh,77073,9453.0,9.453
+3,Chhattisgarh,55812,7365.0,7.365
+4,Odisha,52924,5349.0,5.349
+5,Maharashtra,50778,4910.0,4.91
+6,Uttarakhand,24305,4836.0,4.836
+7,Kerala,21149,4324.0,4.324
+8,Karnataka,38730,3994.0,3.994
+9,Meghalaya,17082,3591.0,3.591
+10,Mizoram,18836,3591.0,3.591
+11,Assam,28327,3261.0,3.261
+12,Andhra Pradesh,31985,3004.0,3.004
+13,Manipur,17218,2968.0,2.968
+14,Jammu and Kashmir,20230,2858.0,2.858
+15,Jharkhand,23614,2785.0,2.785
+16,Telangana,26905,2528.0,2.528
+17,Nagaland,12486,2345.0,2.345
+18,Himachal Pradesh,15434,2345.0,2.345
+19,Tamil Nadu,26364,2198.0,2.198
+20,Andaman and Nicobar,6742,1795.0,1.795
+21,West Bengal,16847,1429.0,1.429
+22,Tripura,7726,1026.0,1.026
+23,Rajasthan,16630,843.0,0.843
+24,Gujarat,14857,843.0,0.843
+25,Uttar Pradesh,14818,843.0,0.843
+26,Sikkim,3344,806.0,0.806
+27,Bihar,7381,330.0,0.33
+28,Goa,2237,330.0,0.33
+29,Ladakh,2837,165.0,0.165
+30,Punjab,1869,103.0,0.103
+31,Haryana,1603,81.0,0.081
+32,Dadra & Nagar Haveli,212,29.0,0.029
+33,Delhi,195,11.0,0.011
+34,Puducherry,111,11.0,0.011
+35,Lakshadweep,27,7.0,0.007
+36,Chandigarh,26,0.0,0.0
